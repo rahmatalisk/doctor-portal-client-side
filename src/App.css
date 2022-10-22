@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+
+}
+
 .App {
   text-align: center;
 }
@@ -23,6 +30,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3498db;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+}
 
 .App-link {
   color: #61dafb;
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
